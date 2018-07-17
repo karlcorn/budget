@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+*{
+font-family:Questrial;	
+font-weight:700;
+}
+#title{
+	position:fixed;
+width: 100%;
+font-family:arial black;
+height:60px;
+padding-top:15px;
+padding-bottom:0px;
+text-align:center;	
+margin-top: -8.5px;
+background-color:white;
+margin-bottom: 30px;
+z-index:100;
+}
+.red{
+font-family:arial black;
+color:rgba(153,0,51,1);	
+}
+div{
+width:100%;
+}
+#all{
+position:relative;
+top:70px;	
+}
+#search{
+	text-align:center;
+}
+fieldset{
+border:none;	
+}
+input{	
+width:400px;
+}
+label{
+font-size:20px;
+position:relative;
+top:5px;
+}
+input{
+	width:305px;
+	padding:10px;
+	margin-left:5px;
+	border:none;
+	outline:none;
+	font-size:20px;
+	border-bottom: solid black 2px;
+	position:relative;
+	top:5px;
+}
+#main{
+border:solid black 2px;
+width:50%;
+height:450px;
+margin:0 auto;
+position:relative;
+top:30px;
+}
+button{
+	font-size: 120%;
+  color: white;
+  border-radius: 2px;
+  background:rgba(153,0,51,1);
+  	border:none;
+	padding:5px;
+	width:200px;
+	height:80px;
+	padding:15px;
+}
+button:hover{
+cursor:pointer;	
+}
+#button{
+text-align:center;
+position:relative;
+top:50px;	
+}
+#random{
+display:block;
+margin:5px auto;	
+width:610px;
+}
+
+#more{
+position:relative;
+top:140px;	
+}
+#box1{
+background: url(https://s-media-cache-ak0.pinimg.com/736x/60/31/55/603155701cce2cec436b1c8a0f4323f5--mexican-style-fashion-lookbook.jpg) no-repeat center;
+background-size:cover;	
+}
+#box2{
+background: url(http://www.tsuifei.com/allSite/yfs/05/images/a02.jpg) no-repeat center;
+background-size:cover;	
+}
+#box3{
+background: url(https://fashionindustrybroadcast.com/wp-content/uploads/2015/08/louis-vuitton-the-series-2-fashion-campaign-Louis_Vuitton_376_The_Series_2_Fashion_Campaign_2_DI3.jpg) no-repeat center;
+background-size:cover;
+}
+span{
+color:white;	
+}
+#readmore-line{
+		line-height:0.1;
+	border-bottom: solid black 2px;	
+	width:870px;
+	margin:0 auto;
+	margin-top:230px;
+	margin-bottom:-42px;
+}
+#readmore-wrap{
+width:100%;
+text-align:center;	
+margin-top: -250px;
+}
+#readmore{
+	font-weight:200;
+	font-size: 27px;
+width:200px;
+margin: 0 auto;
+margin-top: 24px;
+background:white;
+position:relative;
+text-align:center;
+}
+.readmore-images ol li{
+	display:inline-block;
+list-style-type:none;
+	width: 300px;
+	height:300px;
+	margin:0px 10px;
+}
+.readmore-images ol{
+padding:0;
+text-align:center;	
+}
+.readmore-images span{
+	margin:-200px;
+	padding: 11px;
+	max-width:278.2px;
+	display:inline-block;
+	font-size:25px;
+	background:rgba(0,0,0,0.4);
+	opacity:1;
+position:relative;
+left:0.1px;
+top:272px;
+transition: all ease 0.8s;
+}
+.readmore-images li:hover span{
+box-shadow: inset 0 150px 0 0 rgba(153,0,51,1);	
+}
+
+footer{
+  position: absolute;
+top: 1300px;
+width: 100%;
+height: 50px;
+text-align:center;
+background: rgba(153,0,51,1);
+left:0;
+}
+footer p{
+color:white;
+position:relative;
+top:3px;	
+}
